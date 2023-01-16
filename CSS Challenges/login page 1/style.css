@@ -171,3 +171,61 @@ button:hover {
 img {
     visibility: hidden;
 }
+
+@media only screen and (max-width: 600px) {
+    .container-form {
+        padding: 100px 50px;
+        overflow: hidden;
+        border-radius: 0px;
+    }
+
+    input[type=email] {
+        width: 100%;
+        border: none;
+        padding: 10px;
+        border-radius: 25px;
+        margin: 10px 0;
+    }
+
+    input[type=password] {
+        width: 100%;
+        border: none;
+        padding: 10px;
+        border-radius: 25px;
+        margin: 10px 0;
+    }
+
+    label {
+        margin-left: 10px;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+    .container-form {
+        padding: 100px 50px;
+        overflow: hidden;
+        border-radius: 0px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container-form {
+        border-radius: 16px;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    .container-form {
+        border-radius: 16px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .container-form {
+        padding: 200px;
+        overflow: hidden;
+        border-radius: 16px;
+    }
+}
