@@ -174,3 +174,23 @@
 .stripes .stripe-18 {
     transform: rotate(360deg) translateY(-120px);
 }
+
+@-webkit-keyframes background {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes background {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
