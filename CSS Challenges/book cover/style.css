@@ -17,3 +17,16 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+.book {
+    position: absolute;
+    width: 200px;
+    height: 280px;
+    top: 60px;
+    left: 100px;
+    border-radius: 2px 4px 4px 2px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2), -1px 4px 4px 0 rgba(0, 0, 0, 0.3);
+    background: #1e1e1e;
+    background: linear-gradient(45deg, #1e1e1e 0%, #4f4f4f 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1e1e1e", endColorstr="#4f4f4f", GradientType=1);
+}
