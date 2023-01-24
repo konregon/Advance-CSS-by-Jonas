@@ -67,3 +67,51 @@
     -webkit-animation: ball-5 0.8s ease-out 0.8s infinite alternate;
     animation: ball-5 0.8s ease-out 0.8s infinite alternate;
 }
+
+@-webkit-keyframes ball-1 {
+
+    0%,
+    50% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(30deg);
+    }
+}
+
+@keyframes ball-1 {
+
+    0%,
+    50% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(30deg);
+    }
+}
+
+@-webkit-keyframes ball-5 {
+
+    0%,
+    50% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(-30deg);
+    }
+}
+
+@keyframes ball-5 {
+
+    0%,
+    50% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(-30deg);
+    }
+}
