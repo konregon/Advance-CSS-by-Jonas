@@ -12,3 +12,27 @@
     background: #1BBE9E;
     color: #fff;
 }
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bg {
+    fill: none;
+    stroke: #12836D;
+    stroke-width: 4;
+}
+
+.loader {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 4;
+    stroke-linecap: round;
+    stroke-dasharray: 288;
+    -webkit-animation: line 4s linear infinite, spin 3s linear infinite;
+    animation: line 4s linear infinite, spin 3s linear infinite;
+    transform-origin: 50% 50%;
+}
