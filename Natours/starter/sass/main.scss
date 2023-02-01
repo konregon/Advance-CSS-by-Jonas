@@ -14,7 +14,6 @@ $color-white: #fff;
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-    /*bosbo*/
 }
 
 html {
@@ -38,6 +37,7 @@ body {
     background-position: top;
     position: relative;
     /*Polygon Making*/
+
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
 
