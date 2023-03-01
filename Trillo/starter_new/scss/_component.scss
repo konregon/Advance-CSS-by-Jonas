@@ -120,7 +120,9 @@
 ////////////////////////////////////////////
 /// SIDE Navigation
 .side-nav {
-    &__item {}
+    &__item {
+        width: fit-content;
+    }
 
     &__link {}
 
