@@ -207,9 +207,9 @@ body {
   width: 3px;
   background-color: var(--color-primary);
   transform: scaleY(0);
-  transition: transform 0.2s, width 0.4s 0.2s;
+  transition: transform 0.2s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s;
 }
-.side-nav__item:hover::before {
+.side-nav__item:hover::before, .side-nav__item--active::before {
   transform: scaleY(1);
   width: 100%;
 }
@@ -219,8 +219,8 @@ body {
   text-transform: uppercase;
   display: block;
   padding: 1.5rem 3rem;
-  display: flex;
-  align-items: center;
+  position: relative;
+  z-index: 10;
 }
 .side-nav__icon {
   width: 1.75rem;
