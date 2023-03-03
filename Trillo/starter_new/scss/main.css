@@ -244,4 +244,12 @@ body {
 .gallery__photo {
   width: 100%;
   display: block;
+}
+
+.overview {
+  display: flex;
+  flex-direction: row;
+}
+.overview__stars {
+  flex: 1;
 }/*# sourceMappingURL=main.css.map */
