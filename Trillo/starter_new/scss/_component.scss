@@ -200,11 +200,14 @@
 .overview {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     // justify-content: space-between;
 
     &__heading {
         font-size: 2.5rem;
         font-weight: 300;
+        padding-left: 2rem;
     }
 
     &__stars {

@@ -249,10 +249,13 @@ body {
 .overview {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 .overview__heading {
   font-size: 2.5rem;
   font-weight: 300;
+  padding-left: 2rem;
 }
 .overview__stars {
   flex: 1;
