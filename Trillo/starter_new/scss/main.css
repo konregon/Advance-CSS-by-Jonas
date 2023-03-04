@@ -250,6 +250,35 @@ body {
   display: flex;
   flex-direction: row;
 }
+.overview__heading {
+  font-size: 2.5rem;
+  font-weight: 300;
+}
 .overview__stars {
   flex: 1;
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+.overview__location {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+}
+.overview__location button {
+  border: none;
+  outline: none;
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+.overview__rating {
+  padding: 15px;
+  background-color: var(--color-primary);
+  color: #fff;
+  text-align: center;
+  line-height: 1.4;
+}
+.overview__rating-average {
+  font-size: 2.5rem;
+  font-weight: 300;
 }/*# sourceMappingURL=main.css.map */
